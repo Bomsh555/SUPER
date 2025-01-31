@@ -1,67 +1,93 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f5f5f5;
     color: #333;
 }
 
 header {
-    background-color: #8B4513;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #43a047, #FFD700);
+}
+
+header img, 
+header iframe {
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+header p {
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    font-weight: 500;
+}
+
+
+
+.bears {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #43a047, #66bb6a, #2e7d32);
+}
+.bears article {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+
+
+.bears img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #2E7D32;
+}
+
+/* Карта */
+.map {
+    text-align: center;
+    padding: 20px;
+}
+
+.map a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #4CAF50;
     color: white;
-    padding: 20px;
-    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-header img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-top: 10px;
+.map a:hover {
+    background: #2E7D32;
 }
 
-iframe {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 20px auto;
-}
-
-h1 {
-    text-align: center;
-    color: #5a3d1d;
-}
-
-section {
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section img {
-    display: block;
-    width: 100%;
-    max-width: 400px;
-    margin: 10px auto;
-    border-radius: 10px;
-}
-
+/* Подвал */
 footer {
-    background-color: #5a3d1d;
-    color: white;
     text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer img {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
+    padding: 15px;
+    background: #2E7D32;
+    color: white;
+    font-weight: bold;
 }
